@@ -1,0 +1,17 @@
+Package Identification:
+    should conform to directory path:
+    -> package topLevelPackage.subPackage;
+
+Compiling:
+    Compiling Loose files in One directory:
+        -> javac -d . *.javac
+    Compiling Package:
+        move terminal to root directory, or folder that contains the package folder
+        -> javac <packagefoldername>/*.java
+        **If you have errors, move up one directory and try compiling again**
+
+Running:
+    Single file or files in same directory:
+        -> java <filecontainingStaticMainVoid>
+    Package
+        -> java <package>.<staticMainVoidfile>
