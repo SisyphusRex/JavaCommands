@@ -15,3 +15,8 @@ Running:
         -> java <filecontainingStaticMainVoid>
     Package
         -> java <package>.<staticMainVoidfile>
+
+VSCode:
+    1. If package recognition problems:
+        ctrl + shift + p
+        Java: Clean Java Language Server Workspace
